@@ -1,0 +1,28 @@
+.nav { 
+    background-color: white;
+    margin: auto;
+    box-sizing: border-box;
+    border: solid #5B6DCD 10px;
+    border-bottom: 1px solid white;
+    border-top: 4px solid white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    right:0px;
+    
+  }
+.navls > li {
+    display: inline;
+    
+}
+.navls li.location + li.location::before {
+    content: "/ ";
+}
+.navls li a:hover {
+    text-decoration: underline;
+    color: rgba(0, 255, 255, 0.709);
+}
+a {
+    text-decoration: none;
+    color: red;
+}

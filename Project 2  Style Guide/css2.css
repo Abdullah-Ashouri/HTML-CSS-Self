@@ -1,0 +1,14 @@
+.navls > li {
+    display: inline;
+}
+.navls li.location + li.location::before {
+    content: "/ ";
+}
+.navls li a:hover {
+    text-decoration: underline;
+    color: rgba(0, 255, 255, 0.709);
+}
+.nav a {
+    text-decoration: none;
+    color: red;
+  }

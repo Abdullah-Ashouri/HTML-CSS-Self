@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Roboto';
+    color: rgb(77, 18, 205);
+    text-decoration:double;
+    text-shadow: 5px 5px #558ABB;
+    margin-top: 80px;
+   
+}
+.header h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto';
+    color: rgb(77, 18, 205);
+    text-decoration:double;
+    text-shadow: 5px 5px #558ABB;
+}
+
+body {
+  background-color: #3f505f;
+  font-family: 'Roboto';
+}
+
+table {
+  table-layout: fixed;
+  width: max-content;
+  border: 1px solid rgb(255, 230, 0);
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+th {
+  background-color: burlywood;
+  border-bottom: 1px solid rgb(0, 4, 255);
+}
+td { 
+  border-bottom: 1px solid rgb(0, 4, 255);
+
+  
+}
+.tags {
+  background-color: white;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(0, 4, 255);
+}
+.Name {
+  color: aliceblue;
+  border-bottom: 1px solid rgb(0, 4, 255);
+}
+.Description {
+  color: aliceblue;
+  border-bottom: 1px solid rgb(0, 4, 255);
+}
